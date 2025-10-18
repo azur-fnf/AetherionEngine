@@ -1,0 +1,2 @@
+Value1- 1.0 is default song speed
+so lower is slower and more is faster

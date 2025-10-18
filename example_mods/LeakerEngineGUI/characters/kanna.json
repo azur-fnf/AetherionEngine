@@ -1,0 +1,67 @@
+{
+	"animations": [
+		{
+			"offsets": [125, -255],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "kanna Left"
+		},
+		{
+			"offsets": [48, -255],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "kanna Down"
+		},
+		{
+			"offsets": [97, -263],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "kanna Up"
+		},
+		{
+			"offsets": [-3, -252],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "kanna Right"
+		},
+		{
+			"offsets": [54, -242],
+			"indices": [0, 1, 2, 3, 2, 1],
+			"fps": 12,
+			"anim": "bob",
+			"loop": true,
+			"name": "kanna Bob"
+		},
+		{
+			"offsets": [54, -242],
+			"indices": [0, 1, 2, 3, 2, 1],
+			"fps": 12,
+			"anim": "prision",
+			"loop": true,
+			"name": "kanna Dodge"
+		},
+		{
+			"offsets": [54, -242],
+			"indices": [0, 1, 2, 3, 2, 1],
+			"fps": 12,
+			"anim": "idle",
+			"loop": true,
+			"name": "kanna Idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/Kanna",
+	"position": [0, 0],
+	"healthicon": "kanna",
+	"flip_x": false,
+	"healthbar_colors": [255, 200, 255],
+	"camera_position": [-90, 290],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,15 @@
+spanish:
+
+Asegúrense de poner estos scripts en la carpeta 'scripts' o en la data de su canción. Y en las 'images' cortan la carpeta 'holdcover'
+No es necesario darme crédito
+
+si, no funciona muy bien en stages pixel :(
+eso será agregado en el futuro!
+
+English:
+
+Make sure to put these scripts in your song's 'scripts' or 'data' folder. And in the 'images' folder, cut the 'holdcover' folder
+no need to give me credit
+
+yes don't works in pixel stages :(
+will be fixed soon!

@@ -554,14 +554,18 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.data.hideHud;
 		uiGroup.add(scoreTxt);
 
-		botplayTxt = new FlxText(400, healthBar.y - 90, FlxG.width - 800, Language.getPhrase("Botplay").toUpperCase(), 32);
-		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		botplayTxt.scrollFactor.set();
-		botplayTxt.borderSize = 1.25;
-		botplayTxt.visible = cpuControlled;
-		uiGroup.add(botplayTxt);
-		if(ClientPrefs.data.downScroll)
-			botplayTxt.y = healthBar.y + 70;
+	// chance de aparecer uma frase rara (0.1% = 1 em 1000)
+
+	botplayTxt = new FlxText(400, healthBar.y - 90, FlxG.width - 800, "Botplay eh coisa de beta".toUpperCase(), 32);
+	botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+	botplayTxt.scrollFactor.set();
+	botplayTxt.borderSize = 1.25;
+	botplayTxt.visible = cpuControlled;
+	uiGroup.add(botplayTxt);
+
+	if (ClientPrefs.data.downScroll)
+		botplayTxt.y = healthBar.y + 70;
+
 
 		uiGroup.cameras = [camHUD];
 		noteGroup.cameras = [camHUD];

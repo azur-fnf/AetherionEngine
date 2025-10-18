@@ -10,6 +10,7 @@ import states.TitleState;
 @:structInit class SaveVariables {
 	public var downScroll:Bool = false;
 	public var middleScroll:Bool = false;
+	public var hideOffensiveBotplay:Bool = false; // nova opção para filtrar frases do Botplay
 	public var opponentStrums:Bool = true;
 	public var showFPS:Bool = true;
 	public var flashing:Bool = true;
