@@ -1,4 +1,4 @@
-![LeakerEngine](docs/img/LeakerEngineLogo.png)
+![AetherionEngine](docs/img/AetherionEngineLogo.png)
 
 ![Version](https://img.shields.io/badge/version-0.2.5-brightgreen)
 ![Language](https://img.shields.io/badge/made%20with-Haxe-orange)
@@ -6,9 +6,9 @@
 
 ---
 
-### 🌀 About LeakerEngine
+### 🌀 About Aetherion Engine
 
-**LeakerEngine** is a fork of [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine), built to **improve performance**, **add new features**, and **enhance customization**.  
+**Aetherion Engine** is a fork of [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine), built to **improve performance**, **add new features**, and **enhance customization**.  
 It keeps the original modding spirit while offering **smoother gameplay**, **better tools**, and **more creative freedom** for Friday Night Funkin’ mods.
 
 
