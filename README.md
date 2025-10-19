@@ -11,7 +11,6 @@
 **LeakerEngine** is a fork of [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine), built to **improve performance**, **add new features**, and **enhance customization**.  
 It keeps the original modding spirit while offering **smoother gameplay**, **better tools**, and **more creative freedom** for Friday Night Funkin’ mods.
 
-Originally used on the [Mind Games Mod](https://gamebanana.com/mods/301107), LeakerEngine focuses on **fixing core issues** from vanilla Psych while staying **accessible to new coders** and **powerful for advanced modders**.
 
 ---
 
@@ -38,7 +37,8 @@ Same goes for `LUA_ALLOWED` and other optional components.
 ## 💡 Softcoding (.lua / .hx)
 
 Learn how to use all **212 PlayState functions** in your mod on the
-👉 [Psych Engine Lua Wiki](https://shadowmario.github.io/psychengine.lua)
+👉 [Psych Engine Lua Wiki](https://shadowmario.github.io/psychengine.lua) 
+> Yeah i don't wanna to make an copy the wiki
 
 ---
 
@@ -46,7 +46,9 @@ Learn how to use all **212 PlayState functions** in your mod on the
 
 ### Main Developers
 
-* **Azurion** — LeakerEngine Creator & Maintainer
+* **Azurion** — Aetherion Engine Creator & Maintainer
+
+---
 * **Shadow Mario** — Psych Engine base code
 * **Riveren** — Art & Animation (Psych Engine)
 
@@ -90,21 +92,4 @@ You are free to modify, fork, and contribute — just remember to credit the ori
 
 ---
 
-> *LeakerEngine — Performance, Power, and Freedom for FNF Modding.*
-
-
-
----
-
-### 💡 O que este README tem de novo:
-- Badges no topo (versão, tamanho, linguagem, licença).  
-- Descrição mais profissional e direta.  
-- Seções organizadas (instalação, personalização, recursos, créditos).  
-- Formatação visual clara com ícones/emojis.  
-- Compatível com Markdown puro (renderiza bonito no GitHub).
-
----
-
-Se quiser, posso gerar **versão automática** que atualiza os badges de:
-- versão (`LEAKER_ENGINE_VERSION` no código);
-- tamanho do repo (via API do GitHub);
+> *Aetherion Engine — Performance, Power, and Freedom for FNF Modding.*
