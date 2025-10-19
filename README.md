@@ -1,8 +1,3 @@
-Perfeito — você quer modernizar o **README.md** da *LeakerEngine* com um texto de apresentação mais direto e profissional, igual o estilo do *Psych Engine*, mas destacando que o seu fork tem melhorias, novas features e melhor performance.
-Aqui está uma versão reescrita e melhorada do trecho de introdução + badges (como o da imagem que você mandou 👇):
-
----
-
 ![LeakerEngine](docs/img/LeakerEngineLogo.png)
 
 ![Version](https://img.shields.io/badge/version-0.2.5-brightgreen)
