@@ -11,6 +11,7 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 	var notes:FlxTypedGroup<StrumNote>;
 	var splashes:FlxTypedGroup<NoteSplash>;
 	var noteY:Float = 90;
+
 	public function new()
 	{
 		title = Language.getPhrase('visuals_menu', 'Visuals Settings');
