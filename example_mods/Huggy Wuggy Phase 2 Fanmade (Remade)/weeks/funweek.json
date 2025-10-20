@@ -1,0 +1,50 @@
+{
+	"storyName": "Huggy",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Playtime",
+			"huggy",
+			[
+				0,
+				255,
+				0
+			]
+		],
+		[
+			"Playground",
+			"Huggyr",
+			[
+				255,
+				255,
+				0
+			]
+		],
+		[
+			"Play",
+			"huggykill",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"huggymenu",
+		"",
+		"bf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Huggy"
+}

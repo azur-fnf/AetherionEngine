@@ -2,13 +2,23 @@
 
 name: Build
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
 # Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
+<<<<<<< HEAD
     branches: [ main ]
   pull_request:
     branches: [ main ]
+=======
+    branches: [ main, experimental ]
+  pull_request:
+    branches: [ main, experimental ]
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,17 +33,26 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+<<<<<<< HEAD
       - uses: actions/checkout@v2
 
       - uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.2.5
+=======
+      - uses: actions/checkout@v4.1.7
+
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.4
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
           sudo apt-get install libvlc-dev
           sudo apt-get install libvlccore-dev
           haxelib setup ~/haxelib
+<<<<<<< HEAD
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install openfl
@@ -58,6 +77,19 @@ jobs:
         run: haxelib run lime build Project.xml linux --app-version="4.0.0-${{ github.run_id}}"
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
+=======
+          haxelib install hxcpp > /dev/null --quiet
+          chmod +x ./setup/unix.sh
+          sh ./setup/unix.sh
+      - name: Skip SScript setup mode
+        run: echo 'oy9:showMacroty8:loopCosti25y10:includeAllfg' >> ~/settings.cocoa
+      - name: Create Version Tag
+        run: echo "${{github.run_id}}" > VERSION
+      - name: Compile
+        run: haxelib run lime build Project.xml linux --app-version="4.0.0-${{ github.run_id}}" -D officialBuild
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v4.3.4
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
         with:
           name: linuxBuild
           path: 'export/release/linux/bin'
@@ -66,15 +98,24 @@ jobs:
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+<<<<<<< HEAD
       - uses: actions/checkout@v2.3.0
 
       - uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.2.5
+=======
+      - uses: actions/checkout@v4.1.7
+
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.4
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
           haxelib setup C:/haxelib
+<<<<<<< HEAD
           haxelib install hxcpp > nul
           haxelib install lime
           haxelib install openfl
@@ -93,17 +134,31 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install hxcpp-debug-server
           haxelib list
+=======
+          haxelib install hxcpp > /dev/null --quiet
+          .\"setup/windows.bat"
+        shell: cmd
+      - name: Skip SScript setup mode
+        run: echo 'oy9:showMacroty8:loopCosti25y10:includeAllfg' >> %USERPROFILE%/settings.cocoa
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
         shell: cmd
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
       - name: Compile
+<<<<<<< HEAD
         run: haxelib run lime build windows --app-version="4.0.0-${{ github.run_id}}"
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
+=======
+        run: haxelib run lime build windows --app-version="4.0.0-${{ github.run_id}}"  -D officialBuild
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v4.3.4
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
         with:
           name: windowsBuild
           path: export/release/windows/bin
   buildMac:
+<<<<<<< HEAD
     runs-on: macos-latest
 
     steps:
@@ -113,10 +168,22 @@ jobs:
       - uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.2.5
+=======
+    runs-on: macos-15
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4.1.7
+
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.4
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
+<<<<<<< HEAD
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install openfl
@@ -141,6 +208,19 @@ jobs:
         run: haxelib run lime build mac --app-version="4.0.0-${{ github.run_id}}"
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
+=======
+          haxelib install hxcpp > /dev/null --quiet
+          chmod +x ./setup/unix.sh
+          sh ./setup/unix.sh
+      - name: Skip SScript setup mode
+        run: echo 'oy9:showMacroty8:loopCosti25y10:includeAllfg' >> ~/settings.cocoa
+      - name: Create Version Tag
+        run: echo "${{github.run_id}}" > VERSION
+      - name: Compile
+        run: haxelib run lime build mac --app-version="4.0.0-${{ github.run_id}}"  -D officialBuild
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v4.3.4
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
         with:
           name: macBuild
           path: export/release/macos/bin

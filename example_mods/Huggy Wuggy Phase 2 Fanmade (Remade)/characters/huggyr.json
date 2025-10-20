@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				88,
+				24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				92,
+				26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				42,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				106,
+				-12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-21,
+				-45
+			],
+			"indices": [],
+			"fps": 2,
+			"anim": "monster",
+			"loop": false,
+			"name": "Monster"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/huggyr",
+	"position": [
+		-80,
+		-230
+	],
+	"healthicon": "huggyr",
+	"flip_x": false,
+	"healthbar_colors": [
+		50,
+		54,
+		155
+	],
+	"camera_position": [
+		-150,
+		-150
+	],
+	"sing_duration": 6.09999999999999,
+	"scale": 1.4
+}

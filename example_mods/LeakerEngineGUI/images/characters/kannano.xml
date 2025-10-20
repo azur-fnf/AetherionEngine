@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="kanna.png">
+<SubTexture name="kanna Idle0000" x="1876" y="991" width="491" height="494" frameX="-5" frameY="-6" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Right0000" x="1376" y="0" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Down0000" x="1376" y="500" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Up0000" x="2376" y="491" width="485" height="481" frameX="-10" frameY="-8" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna cute0000" x="0" y="0" width="736" height="1226" frameX="0" frameY="0" frameWidth="736" frameHeight="1226" />
+<SubTexture name="kanna Dodge0000" x="736" y="640" width="540" height="540" frameX="0" frameY="0" frameWidth="540" frameHeight="540" />
+<SubTexture name="kanna Left0000" x="497" y="1726" width="496" height="492" frameX="-2" frameY="-8" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Bob0000" x="736" y="0" width="640" height="640" frameX="0" frameY="0" frameWidth="640" frameHeight="640" />
+<SubTexture name="kanna Idle0001" x="1876" y="496" width="493" height="495" frameX="-7" frameY="-5" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Idle0002" x="0" y="1726" width="497" height="493" frameX="-2" frameY="-7" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Idle0003" x="0" y="1226" width="500" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Left0001" x="1493" y="1726" width="491" height="491" frameX="-1" frameY="-9" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Left0002" x="996" y="1226" width="479" height="499" frameX="-19" frameY="-1" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Right0001" x="500" y="1226" width="496" height="500" frameX="0" frameY="0" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Down0001" x="993" y="1726" width="500" height="492" frameX="0" frameY="-8" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Down0002" x="1876" y="0" width="500" height="496" frameX="0" frameY="-4" frameWidth="500" frameHeight="500" />
+<SubTexture name="kanna Up0001" x="2376" y="0" width="489" height="491" frameX="-9" frameY="-2" frameWidth="500" frameHeight="500" />
+</TextureAtlas>

@@ -1,0 +1,72 @@
+{
+	"animations": [
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "AzurIRL Left"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "AzurIRL Down"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 12,
+			"name": "AzurIRL Up"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "hurt",
+			"fps": 12,
+			"name": "AzurIRL jeringa"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "at",
+			"fps": 12,
+			"name": "AzurIRL jeringa"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "dodge",
+			"fps": 12,
+			"name": "AzurIRL Dodge"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "AzurIRL Right"
+		},
+		{
+			"offsets": [-60, -57],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [0, 1, 2, 3, 2, 1],
+			"name": "AzurIRL Idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/AzurIRLnocolors",
+	"position": [0, 0],
+	"healthicon": "kanna",
+	"flip_x": false,
+	"healthbar_colors": [100, 60, 255],
+	"camera_position": [-70, 10],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

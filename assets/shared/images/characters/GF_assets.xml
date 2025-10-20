@@ -192,6 +192,7 @@
 	<SubTexture name="gf sad0015" x="2836" y="5294" width="699" height="636"/>
 	<SubTexture name="gf sad0016" x="3545" y="5294" width="699" height="636"/>
 	<SubTexture name="gf sad0017" x="3545" y="5294" width="699" height="636"/>
+<<<<<<< HEAD
 	<SubTexture name="gf sad0018" x="1418" y="5294" width="699" height="636"/>
 	<SubTexture name="gf sad0019" x="1418" y="5294" width="699" height="636"/>
 	<SubTexture name="gf sad0020" x="2127" y="5294" width="699" height="636"/>
@@ -254,4 +255,6 @@
 	<SubTexture name="gf sad0077" x="2127" y="5294" width="699" height="636"/>
 	<SubTexture name="gf sad0078" x="2836" y="5294" width="699" height="636"/>
 	<SubTexture name="gf sad0079" x="2836" y="5294" width="699" height="636"/>
+=======
+>>>>>>> 50b0f32771f726d57428a8ca94702fff9e928684
 </TextureAtlas>

@@ -1,0 +1,369 @@
+{
+	"song": {
+		"speed": 2.6,
+		"stage": "factory",
+		"player1": "bf",
+		"player2": "huggyr",
+		"player3": null,
+		"events": [
+			[
+				38000,
+				[
+					[
+						"Play Animation",
+						"monster",
+						"dad"
+					]
+				]
+			],
+			[
+				38071.4285714286,
+				[
+					[
+						"Screen Shake",
+						"3,0.01",
+						"3,0.01"
+					]
+				]
+			],
+			[
+				40000,
+				[
+					[
+						"Change Character",
+						"1",
+						"huggykill"
+					]
+				]
+			],
+			[
+				40142.8571428571,
+				[
+					[
+						"Play Animation",
+						"hurt",
+						"bf"
+					]
+				]
+			],
+			[
+				40857.1428571428,
+				[
+					[
+						"Change Character",
+						"0",
+						"bfsc"
+					]
+				]
+			],
+			[
+				41142.8571428571,
+				[
+					[
+						"Screen Shake",
+						"51,0.01",
+						""
+					]
+				]
+			],
+			[
+				41214.2857142857,
+				[
+					[
+						"Blammed Lights",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				42857.1428571429,
+				[
+					[
+						"Change Character",
+						"2",
+						"gffear"
+					]
+				]
+			],
+			[
+				52571.4285714286,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				52857.1428571429,
+				[
+					[
+						"Screen Shake",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				69928.5714285715,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				70285.7142857143,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				72214.2857142858,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				72500,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				75714.2857142858,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				76000,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				77714.2857142858,
+				[
+					[
+						"Blammed Lights",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				78142.8571428572,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				78428.5714285715,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				79500.0000000001,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				79785.7142857143,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				81357.1428571429,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				81642.8571428572,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				83428.5714285715,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				83714.2857142858,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				86071.4285714286,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				86357.1428571429,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				90642.8571428572,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				90928.5714285715,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				94071.4285714286,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				94357.1428571429,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				97500.0000000001,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				97785.7142857144,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			],
+			[
+				100928.571428572,
+				[
+					[
+						"Play Animation",
+						"kick",
+						"dad"
+					]
+				]
+			],
+			[
+				101214.285714286,
+				[
+					[
+						"Play Animation",
+						"dodge",
+						"bf"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 210,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Playground"
+	}
+}

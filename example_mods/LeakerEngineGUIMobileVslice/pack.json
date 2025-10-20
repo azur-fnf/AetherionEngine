@@ -1,0 +1,9 @@
+{
+  "name": "Leaker Engine Hud Mobile V-Slice yeeeey",
+  "description": "Original by Speelcraft hud",
+  "restart": false,
+  "runsGlobally": true,
+  "color": [255, 255, 255],
+  "discordRPC": "",
+  "iconFramerate": 10
+}

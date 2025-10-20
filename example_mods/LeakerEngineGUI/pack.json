@@ -1,0 +1,9 @@
+{
+  "name": "Leaker Engine Hud",
+  "description": "A custom HUD for Psych Engine with an optional mobile GUI that can enable/disable scripts.",
+  "restart": false,
+  "runsGlobally": true,
+  "color": [170, 0, 255],
+  "discordRPC": "",
+  "iconFramerate": 10
+}

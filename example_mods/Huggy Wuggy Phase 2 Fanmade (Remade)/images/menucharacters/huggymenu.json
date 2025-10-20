@@ -1,0 +1,10 @@
+{
+	"idle_anim": "HUGGY MENU",
+	"image": "huggymenu",
+	"position": [
+		100,
+		220
+	],
+	"scale": 0.5,
+	"confirm_anim": "M Dad Idle"
+}
