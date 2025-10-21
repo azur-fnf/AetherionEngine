@@ -129,8 +129,11 @@ class MainMenuState extends MusicBeatState
 		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
-
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Aetherion Engine v" + psychEngineVersion, 12);
+		var aetherText:FlxText = new FlxText(12, FlxG.height - 64, 0, "Aether Engine v" + Version.AETHERIONVER, 12);
+		aetherText.scrollFactor.set();
+		aetherText.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(aetherText);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v0.6.3", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
