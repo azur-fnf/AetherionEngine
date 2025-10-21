@@ -18,7 +18,6 @@
 ## 📦 About Aetherion Engine
 **Aetherion Engine** is a reworked version of the [Psych Engine](https://github.com/ShadowMario/FNF-PsychEngine), designed to provide smoother performance, modern tools, and a cleaner modding experience.
 
-Originally based on the engine used in the [Mind Games Mod](https://gamebanana.com/mods/301107), Aetherion aims to fix bugs, improve compatibility, and simplify mod creation — all while keeping the fun and freedom of the original.
 
 ---
 
